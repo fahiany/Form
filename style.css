@@ -1,0 +1,10 @@
+* {
+    background-color: rgb(194, 168, 219);
+    color: rgb(165, 0, 124);
+    background-image: url(gato.jpg);
+    background-repeat: no-repeat;
+}
+
+.h1 {
+    text-align: center;
+}

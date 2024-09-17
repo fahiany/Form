@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Dados pessoais</h1>
+    <form action="">
+        <label for="Nome">Nome:</label>
+        <input id="Nome"  type="text" size="30" maxlength="10" placeholder="Informe seu nome">
+        <label for="Sobrenome">Sobrenome:</label>
+        <input id="Sobrenome" type="text"size="30" maxlength="10" placeholder="Informe seu Sobrenome">
+        
+        <br>
+        <br>
+        
+        <label for="Sobrenome">Senha:</label>
+        <input id="senha" type="password" size="20" maxlength="8" placeholder="Informe sua senha.">
+
+        <br>
+        <br>
+
+        <label for="Email">Email:</label>
+        <input id="Email" type="text" size="30" maxlength="50" placeholder="Informe seu e-mail.">
+        
+        <br>
+        <br>
+        
+
+        <label>Sexo:</label> <br>
+        <input id="feminino" name="genero" value="Feminino" type="radio">
+        <label for="feminino">Feminino</label> <br>
+        <input id="Masculino" name="genero" value="Masculino" type="radio">
+        <label for="Masculino">Masculino</label> <br>
+        
+        <br>
+        <br>
+
+        <label>Cursos matriculados:</label> <br>
+        <input type="checkbox" id="java" name="cursos" value="java"> 
+        <label for="java">Java</label><br>
+        <input type="checkbox" id="python" name="cursos" value="python">
+        <label for="python">Python</label> <br>
+        <input type="checkbox" id="c" name="cursos" value="c">
+        <label for="c">C</label> 
+
+        <br>
+        <br>
+
+        <label> Anexe seu comprovante de matrícula <input type="file" multiple></label> <br>
+
+        <label>Data de envio:</label> <br>
+        <input type="date" min="2024/09/16" max="2024/09/25"> <br>
+        <label for="">Telefone:</label>
+        <input type="tel" pattern="[0-9] - {2} - [0-9] - {5} - [0-9] - {4}" placeholder="99-99999-9999"> <br>
+        <label>Selecione o mês que você deseja iniciar:</label> 
+        <input type="month"> <br> <br>
+        <label>Duvidas:</label> <br>
+        <textarea rows="12" cols="30"
+
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>
